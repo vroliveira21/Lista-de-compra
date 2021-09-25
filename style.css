@@ -1,19 +1,25 @@
-*{margin: 0;padding: 0;box-sizing: border-box; list-style: none;border: 0;}
+*{margin: 0;padding: 0;box-sizing: border-box; list-style: none;}
+
+body{
+    
+    background: url(imagens/fundo3.jpg);
+    font-family: Helvetica, Arial, sans-serif;
+    
+}
+
+/*header*/
 #container{
-    border: 1px solid red;
+    background-color: #ffcc66;
+    opacity: 0.8;
     width: 100%;
     display: flex;
     justify-content: space-around;
     
-    
 }
 
 #logo{
-    border: 1px solid blue;
-    margin-top: 30px;
-
     
-
+    margin-top: 30px;
 }
 
 
@@ -27,33 +33,77 @@
 }
 
 #voltar-home{
-    border: 1px solid rebeccapurple;
     margin-top: 30px;
-    
 }
 
 
+
+/*responsividade header*/
+
+@media(max-width:760px){header{
+    flex-direction: column;
+    align-items: center;
+    
+}}
+
+
+/*Area main com menú e foto*/
+.container{
+    
+    display: flex;
+    
+    
+    
+}
+
+h3{
+    color: yellow;
+    padding: 20px;
+}
+
+.menu{
+    
+    flex-grow: 1;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 1.2em;
+    margin-top: 35px;
+    line-height: 30px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+border-bottom: 3px solid yellow;
+}
+
+.foto{
+    display: flex;
+    order: 1;
+    margin-top: 35px;
+    flex-grow: 1;
+    transi;
+    
+    
+}
+
+/*Responsividade área main*/
 
 @media(max-width:760px){main{
     flex-direction: column;
     align-items: center;
     
-    
-
 }}
 
-
-
-article{
-    border: 1px solid red;
-    margin-top: 15px;
-    padding: 25px 25px;
-    line-height: 30px;
-} 
-
-article ul li a{
-text-decoration: none;
-
+footer{
+    display: flex;
+    width: 100%;
+    border: 1px solid white;
 }
+
+
 
 
