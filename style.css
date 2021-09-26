@@ -19,11 +19,13 @@ body{
 
 #logo{
     
-    margin-top: 30px;
+    margin-top: 60px;
 }
 
 
 #pesquisar{
+    background: url(imagens/loupe.png)no-repeat right white;
+    background-repeat: no-repeat;
     width: 50%;
     padding: 10px;
     margin-bottom: 30px;
@@ -32,8 +34,11 @@ body{
     
 }
 
+
+
+
 #voltar-home{
-    margin-top: 30px;
+    margin-top: 60px;
 }
 
 
@@ -98,11 +103,34 @@ border-bottom: 3px solid yellow;
     
 }}
 
-footer{
+/*Rodapé*/
+
+
+.rodape{
+    background-color: #ffcc66;
+    opacity: 0.8;
+    justify-content: space-around;
     display: flex;
     width: 100%;
     border: 1px solid white;
+    padding-bottom: 25px;
+    
 }
+
+.item1{}
+
+.item2{padding:30px 25px;}
+
+.item3{}
+
+
+/*Responsividade área footer*/
+
+@media(max-width:760px){.rodape{
+    flex-direction: column;
+    text-align: center;
+    
+}}
 
 
 
