@@ -84,11 +84,18 @@ input{
     font-size: 1.3em;
     padding: 15px;
    margin: 20px 20px;
+
    border-radius: 10px;
    border: 0;
    background: rgb(251, 132, 168);
    opacity: 0.5;
    
+}
+
+input:hover{
+    border: 2px solid rgb(255, 0, 255);
+    background: white;
+    
 }
 
 a{
@@ -98,7 +105,7 @@ a{
 }
 
 a:hover{
-    background-color: #ff0381;
+    background-color: #ff0080;
     border-radius: 15px;
 }
 
