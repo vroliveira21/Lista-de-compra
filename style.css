@@ -93,8 +93,10 @@ input{
 }
 
 input:hover{
-    border: 2px solid rgb(255, 0, 255);
+    border: 1px solid rgb(255, 0, 255);
     background: white;
+    transition-property: background, border;
+    transition-duration: 1.5s;
     
 }
 
@@ -106,6 +108,8 @@ a{
 
 a:hover{
     background-color: #ff0080;
+    transition-property: background-color;
+    transition-duration: 2.5s;
     border-radius: 15px;
 }
 
