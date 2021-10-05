@@ -43,7 +43,7 @@ header {
 .card-center {
     display: flex;
     width: 60%;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     flex-direction: row;
 }
@@ -59,9 +59,9 @@ header {
 
 .card-center-left {
     border: 1px solid black;
-    height: auto;
-    width: auto;
-    border-radius: 20px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
 }
 
 .card-center div>input[type=text] {
@@ -71,6 +71,20 @@ header {
     margin-top: 8px;
     margin-right: 16px;
     font-size: 17px;
+    border-radius: 20px;
+}
+
+.card-center div>img {
+    height: 50px;
+    width: 50px;
+}
+
+.card-center div>select {
+    border: 1px solid black;
+    width: 100px;
+    height: 30px;
+    background-color: transparent;
+    border-radius: 10px;
 }
 
 .card-right {
