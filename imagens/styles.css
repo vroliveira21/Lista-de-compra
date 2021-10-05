@@ -1,0 +1,139 @@
+*{margin: 0;padding: 0; box-sizing: border-box;}
+
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url(imagens/backGR.png);
+    background-repeat: no-repeat;
+    
+}
+
+.logo{
+    display: flex;
+   justify-content: center;
+    width: 100%;
+}
+
+
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3{ width: 400px;
+    margin: auto;
+    color: white;
+    background:#ff8903;
+    opacity: 0.7;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+    font-size: 1.5em;
+    
+}
+
+input{
+    width: 370px;
+    font-size: 1.2em;
+    padding: 12px;
+    margin-top: 18px;
+   border-radius: 10px;
+   border: 0;
+   background: rgb(253, 202, 63);
+   opacity: 0.7;
+   
+}
+
+input:hover{
+    border: 1px solid rgb(255, 157, 0);
+    background: white;
+    transition-property: background, border;
+    transition-duration: 1.5s;
+    
+}
+
+
+select{
+    font-size: 1.3em;
+    padding: 12px;
+    margin-top: 20px;
+   border-radius: 10px;
+   border: 0;
+   background: rgb(253, 202, 63);
+   opacity: 0.7;
+   
+}
+.estado-cidade{
+    display:flex;
+    width: 370px;
+}
+
+/*verificar......*/
+.item1{}
+.item2{margin-left: 5px;}
+
+
+.cep{
+    display: flex;
+    width: 370px;
+}
+.cep input{
+    
+    width: 150px;
+    text-align: center;
+    margin-right: 5px;
+    
+}
+
+.numero-button{
+    display: flex;
+    justify-content: space-around;
+    width: 370px;
+    
+    
+}
+
+.numero-button input{
+    width: 100px;
+    
+    
+}
+
+button{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 0;
+    background: #ff8903;
+    color: white;
+    opacity: 0.7;
+    
+   
+}
+
+button:hover{
+    color: white;
+    font-size: 1.6em;
+    background: rgb(103, 255, 1);
+    transition-property: background, border, font-size;
+    transition-duration: 1.5s; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
