@@ -12,6 +12,8 @@ body{
     display: flex;
    justify-content: center;
     width: 100%;
+    margin-bottom: 25px;
+    box-shadow: 1px 1px 10px rgba(255, 158, 2, 0.667);
 }
 
 
@@ -21,6 +23,7 @@ form{
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 h3{ width: 400px;
@@ -71,8 +74,6 @@ select{
     width: 370px;
 }
 
-
-.item1{}
 .item2{margin-left: 5px;}
 
 
@@ -92,13 +93,10 @@ select{
     display: flex;
     justify-content: space-around;
     width: 370px;
-    
-    
 }
 
 .numero-button input{
     width: 100px;
-    
     
 }
 
@@ -112,17 +110,36 @@ button{
     background: #ff8903;
     color: white;
     opacity: 0.7;
+    margin-bottom: 10px;
     
-   
 }
 
 button:hover{
+    margin-bottom: 10px;
     color: white;
     font-size: 1.6em;
     background: rgb(103, 255, 1);
     transition-property: background, border, font-size;
     transition-duration: 1.5s; 
 }
+
+.rodape{
+    padding: 10px;
+    justify-content: space-around;
+    display: flex;
+    width: 100%;
+}
+
+
+
+/*Responsividade área footer*/
+
+@media(max-width:760px){
+    .rodape{
+    flex-direction: column;
+    align-items: center;
+    
+}}
 
 
 
