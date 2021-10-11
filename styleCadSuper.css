@@ -9,6 +9,9 @@ body{
 .logo{display: flex;
    justify-content: center;
     width: 100%;
+    background: #ff8903d2;
+    position: fixed;
+    box-shadow: 1px 1px 10px rgba(39, 26, 5, 0.667);
    
 
        
@@ -20,8 +23,8 @@ body{
     display: flex;
     justify-content: space-around;
     width: 100%;
-    padding-top: 50px;
-    box-shadow: 1px 1px 10px rgba(255, 158, 2, 0.667);
+    padding-top: 150px;
+    box-shadow: 1px 1px 10px rgba(39, 26, 5, 0.667);
 
 }
 
