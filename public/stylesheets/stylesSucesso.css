@@ -3,13 +3,13 @@
 
 body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-image: url(/imagens/backGR.png);
+    background-image: url(../images/backGR.png);
     background-repeat: no-repeat;
     
 }
 
 .logo{
-    background: #ff8903d2;
+    background: linear-gradient(#f5c013, #ff8903d2);
     position: fixed;
     display: flex;
    justify-content: center;
