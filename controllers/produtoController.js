@@ -1,7 +1,7 @@
-const controller = {
+const produtoController = {
     index:(req, res)=>{
         return res.render("produtos")
     }
 }
 
-module.exports = controller;
+module.exports = produtoController;
