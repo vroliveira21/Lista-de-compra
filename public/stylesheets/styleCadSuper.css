@@ -81,8 +81,7 @@ input{
     font-size: 1.3em;
     padding: 15px;
    margin: 20px 20px;
-
-   border-radius: 10px;
+   border-radius: 15px;
    border: 0;
    background: rgb(253, 202, 63);
    opacity: 0.5;
@@ -97,13 +96,13 @@ input:hover{
     
 }
 
-a{
+button{
     display: flex;
     align-self: center;
     
 }
 
-a:hover{
+button:hover{
     background-color: #ff7b00;
     transition-property: background-color;
     transition-duration: 2.5s;
