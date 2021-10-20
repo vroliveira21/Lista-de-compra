@@ -128,86 +128,76 @@ main {
     display: flex;
     background-color: #fed06c86;
     height: 100vh;
-    justify-content: space-around;
+    justify-content: center;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
-    padding: 20px 10px 20px 10px;
+    /* padding: 20px 10px 20px 10px; */
     align-items: center;
-}
-
-ul {
-    display: flex;
     flex-direction: column;
-    border: 1px solid black;
-    padding: 5px;
-    border-radius: 10px;
-    justify-content: space-between;
-    align-items: center;
 }
 
-li {
-    list-style-type: none;
-    border: 1px solid black;
-    border-radius: 10px;
-    padding: 0 15px 0 15px;
-    margin: 10px;
-    background-color: #ffba25;
-}
-
-ul>li>a {
-    text-decoration: none;
-    color: black;
-    word-break: break-word;
-    text-align: center;
-}
-
-ul>li:hover {
-    background-color: #ce9928;
-    color: #d49100;
-    text-decoration: none;
-    border: 1px solid black;
-}
-
-.card-main-left {
-    height: 50vh;
-    width: 25%;
-}
-
-.card-main-left div {
+.top-main {
     display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 80vw;
+}
+
+.middle-main {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 80vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.bottom-main {
+    display: flex;
+    align-items: center;
     justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
-    border: 1px solid black;
-    border-radius: 10px;
+    /*  padding-left: 60px;
+    padding-right: 60px; */
+    width: 100vw;
 }
 
-.card-main-right {
+.bottom-main li {
+    list-style: none;
+}
+
+.bottom-main-left {
+    display: flex;
+    align-items: center;
+    width: 40vw;
+}
+
+#left {
+    display: flex;
+    justify-content: start;
+    align-items: stretch;
+    margin-right: 50px;
+}
+
+#left>img {
+    height: 50px;
+    width: 50px;
+}
+
+#right {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+
+/* .bottom-main-left div>img {
+    height: 50px;
+    width: 50px;
+} */
+
+.bottom-main-right {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    border: 1px solid black;
-    border-radius: 10px;
-    margin-left: 10px;
-    width: 50vw;
-    height: 80%;
-}
-
-.content-top {
-    align-self: flex-start;
-    margin: 10px;
-    border: 1px solid black;
-    border-radius: 10px;
-    padding: 1px 10px 1px 10px;
-}
-
-.content-bottom {
-    padding: 5px;
-    width: 95%;
-    height: 100%;
-    margin: 10px;
-    border-radius: 10px;
-    border: 1px solid black;
 }
 
 
