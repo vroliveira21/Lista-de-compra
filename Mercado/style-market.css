@@ -236,11 +236,28 @@
         }
         
         @media (max-width: 800px) {
+            .card-center-left {
+                display: none;
+            }
             main {
                 display: flex;
-                justify-content: space-around;
+                justify-content: center;
                 flex-direction: column;
                 align-items: center;
+            }
+            .top-main {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+            }
+            .bottom-main {
+                display: flex;
+                flex-direction: column;
+            }
+            .img_logo_market {
+                width: 15%;
+                max-height: auto;
             }
             .card-carrousel img {
                 height: 200px;
