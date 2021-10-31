@@ -114,7 +114,8 @@ button:hover{
 
 
 .rodape{
-    padding: 10px;
+    background: linear-gradient(#ff8903d2, #f5c013);
+    padding: 30px;
     justify-content: space-around;
     display: flex;
     width: 100%;

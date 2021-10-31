@@ -7,6 +7,10 @@ var logger = require('morgan');
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
+//Importando o middleware criado para rastrear globalmente as páginas acessadas:
+var middleware = require("./middlewares/logRoutes")
+
+
 
 var app = express();
 
@@ -19,7 +23,12 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
-app.use(methodOverride("_method"))
+
+
+//Para chamar o middleware criado:
+app.use(middleware)
+
+
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);

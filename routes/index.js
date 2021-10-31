@@ -1,10 +1,10 @@
 const express = require('express');
 const router = express.Router();
-const methodOverride = require("method-override")
 const produtoController = require('../controllers/produtoController');
 const cadSuperController = require("../controllers/cadSuperController");
 const dadosSuperController = require("../controllers/dadosSuperController");
 const cadSucessoController = require("../controllers/cadSucessoController");
+
 const { Router } = require('express');
 
 

@@ -1,6 +1,6 @@
 const produtoController = {
     index:(req, res)=>{
-        return res.render("produtos")
+        return res.render("produtos", {h3: "categorias de produtos"})
     }
 }
 
